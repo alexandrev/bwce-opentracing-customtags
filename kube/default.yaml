@@ -1,0 +1,10 @@
+apiVersion: config.istio.io/v1alpha2
+kind: RouteRule
+metadata:
+  name: provider-default
+spec:
+  destination:
+    name: provider-svc
+  route:
+  - labels:
+      version: v1
