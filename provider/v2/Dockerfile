@@ -1,5 +1,0 @@
-FROM bwce_base:2.4.3
-ADD provider_2.0.0.ear /
-
-EXPOSE 5000
-ENV PROVIDER_PORT 5000

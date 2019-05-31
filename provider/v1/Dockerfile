@@ -1,4 +1,4 @@
-FROM bwce_base:2.4.3
+FROM bwce_base:2.4.4
 ADD provider_1.0.0.ear /
 
 EXPOSE 5000
